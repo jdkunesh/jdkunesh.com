@@ -8,7 +8,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-
+        "kd-indigo": "#515281",
+        "kd-blonde": "#FAF0BE",
+        "kd-blue": "#0070AD",
+        "kd-deep-purple": "#404660",
+        "kd-gray-dark": "#34333E",
+        "kd-gray-gray": "#484048",
+        "kd-gray-light": "#7A868E",
+        "kd-gray-lighter": "#A8A8C0",
+        "kd-gray-lightest": "#D1D1D",
+        "kd-green": "#469578",
+        "kd-light-green": "#A1BE77",
+        "kd-isabelline": "#F5EEDE",
+        "kd-orange": "#FD6C03",
+        "kd-purple": "#572A59",
+        "kd-red": "#F5141F",
+        "kd-yellow": "#FFD400"
       },
       fontFamily: {
         'bst': ['"Big Shoulders Text"']
