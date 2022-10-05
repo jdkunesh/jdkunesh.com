@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <title>{{ title }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@700&family=Big+Shoulders+Stencil+Text:wght@700&family=Big+Shoulders+Text:wght@900&family=Public+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
     <script src="https://kit.fontawesome.com/55ac080c8c.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
@@ -12,14 +13,11 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/site.webmanifest">
   </head>
-  <body class="uppercase bg-kd-isabelline">
-    <header class="p-4">
-      <h1 class="text-3xl font-bst text-kd-green text-center">{{title}}</h1>
-    </header>
-    <main class="p-4">
+  <body class="uppercase bg-kd-blue">
+    <main class="">
       {{ content | safe }}
     </main>
-    <footer class="p-4 text-kd-indigo font-mono text-center">
+    <footer class="text-kd-isabelline font-jdk-body text-center">
       &copy; 2022
     </footer>
     <script src="/assets/main.js"></script>

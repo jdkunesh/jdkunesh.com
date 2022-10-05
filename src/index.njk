@@ -3,14 +3,15 @@ title: Jason Kunesh
 layout: layouts/base.njk
 ---
 
-<figure class="">
-  <img src="img/jdkunesh-icon.png" class="rounded-full" alt=""/>
-</figure>
-<div class="grid grid-cols-2 grid-rows-1 gap-4 items-stretch py-2">
-  <div class="kd-card">
-  <a href="https://kunesh.design/"><img src="img/work.png" alt="My work"/></a>
-  </div>
-  <div class="kd-card">
-  <a href="https://jasonkunesh.com/"><img src="img/play.png" alt="Me and things I do for fun"/></a>
+<div class="flex flex-col items-center justify-center h-screen">
+  <img src="img/jdkunesh-icon.png" class="rounded-lg pb-2" width="33%" alt="Kunesh emoji"/>
+  <h1 class="text-8xl font-bst font-black text-kd-gray-lightest text-center p-4">{{title}}</h1>
+  <div class="grid grid-cols-2 grid-rows-1 gap-4 items-stretch py-2">
+    <div class="kd-card bg-transparent">
+    <a href="https://kunesh.design/" class="uppercase font-bsst text-7xl font-bold text-kd-isabelline">work</a>
+    </div>
+    <div class="kd-card bg-kd-red">
+    <a href="https://jasonkunesh.com/" class="uppercase font-bsti text-8xl font-bold text-kd-blue">play</a>
+    </div>
   </div>
 </div>

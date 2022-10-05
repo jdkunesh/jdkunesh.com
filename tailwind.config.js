@@ -16,17 +16,22 @@ module.exports = {
         "kd-gray-gray": "#484048",
         "kd-gray-light": "#7A868E",
         "kd-gray-lighter": "#A8A8C0",
-        "kd-gray-lightest": "#D1D1D",
+        "kd-gray-lightest": "#D1D1DA",
         "kd-green": "#469578",
         "kd-light-green": "#A1BE77",
+        "kd-lite-green": "#CEDFB5",
         "kd-isabelline": "#F5EEDE",
         "kd-orange": "#FD6C03",
+        "kd-stacy-orange": "#F0A628",
         "kd-purple": "#572A59",
         "kd-red": "#F5141F",
         "kd-yellow": "#FFD400"
       },
       fontFamily: {
-        'bst': ['"Big Shoulders Text"']
+        'bst': ['"Big Shoulders Text"'],
+        'bsti': ['"Big Shoulders Inline Text"'],
+        'bsst': ['"Big Shoulders Stencil Text"'],
+        'jdk-body': ['"Public Sans"']
       }
     }
   }
