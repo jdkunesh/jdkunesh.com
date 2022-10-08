@@ -30,8 +30,7 @@ module.exports = {
       fontFamily: {
         'bst': ['"Big Shoulders Text"'],
         'bsti': ['"Big Shoulders Inline Text"'],
-        'bsst': ['"Big Shoulders Stencil Text"'],
-        'jdk-body': ['"Public Sans"']
+        'bsst': ['"Big Shoulders Stencil Text"']
       }
     }
   }
