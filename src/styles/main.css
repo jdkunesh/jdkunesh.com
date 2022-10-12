@@ -4,5 +4,5 @@
 
 @layer components {
     .kd-btn {@apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;}
-    .kd-card { @apply max-w-sm border-2 bg-transparent text-kd-isabelline p-4 flex items-center justify-center rounded-md h-40}
+    .kd-card { @apply max-w-sm bg-transparent text-kd-isabelline p-4 flex items-center justify-center rounded-md h-40}
 }
