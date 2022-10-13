@@ -1,7 +1,9 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, sizes) {
+async function imageShortcode(src, alt, sizes, howlazy) {
+  howlazy ? "eager" : "lazy";
+  
   let metadata = await Image(src, {
     widths: [400, 800, 1280, 1920],
     formats: ["webp", "avif", "jpeg"],
@@ -11,7 +13,7 @@ async function imageShortcode(src, alt, sizes) {
   let imageAttributes = {
     alt,
     sizes,
-    loading: "lazy",
+    loading: howlazy,
     decoding: "async",
   };
 
