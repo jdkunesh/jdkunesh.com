@@ -5,7 +5,7 @@ async function imageShortcode(src, alt, sizes, howlazy) {
   howlazy ? "eager" : "lazy";
   
   let metadata = await Image(src, {
-    widths: [400, 800, 1280, 1920],
+    widths: [400, 512, 800, 1280, 1920],
     formats: ["webp", "avif", "jpeg"],
     outputDir: '_site/img'
   });
