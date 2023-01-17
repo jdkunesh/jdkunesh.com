@@ -28,9 +28,12 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy('src/img');
-  eleventyConfig.addPassthroughCopy('src/favicon.*');
-  eleventyConfig.addPassthroughCopy('src/*.png');
+  eleventyConfig.addPassthroughCopy('src/favicon*');
+  eleventyConfig.addPassthroughCopy('src/safari-pinned-tab.svg'); 
+  eleventyConfig.addPassthroughCopy('src/m*stile-150x150.png');
+  eleventyConfig.addPassthroughCopy('src/a*.png'); // android and apple png files 
   eleventyConfig.addPassthroughCopy('src/site.webmanifest');
+  eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
   const {
     DateTime
