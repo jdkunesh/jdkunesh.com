@@ -22,6 +22,7 @@ module.exports = {
         "kd-lite-green": "#CEDFB5",
         "kd-isabelline": "#F5EEDE",
         "kd-orange": "#FD6C03",
+        "kd-light-orange": "#E89960",
         "kd-stacy-orange": "#F0A628",
         "kd-purple": "#572A59",
         "kd-red": "#F5141F",
