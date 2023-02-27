@@ -22,14 +22,34 @@
     <meta property="twitter:description" content="jdkunesh.com has the latest from Jason Kunesh in work and play. Life, in fact." />
     <meta property="twitter:image" content="https://jdkunesh.com/img/kunesh-emojicon-social.png" />
   </head>
-  <body class="bg-kd-tangerine">
-    <main>
+  <body class="flex flex-col items-center justify-center bg-kd-tangerine">
+    <main class="w-72 sm:w-80 md:w-96 lg:pt-8">
       {{ content | safe }}
     </main>
-    <footer class="text-kd-gray-dark font-mono text-center">
-      &copy; 2023 
+    <div class="grid grid-cols-2 grid-rows-1 gap-0 md:gap-8 lg:gap-12 items-stretch">
+        <a href="https://kunesh.design/">
+        <div class="kd-card uppercase font-bsst text-4xl sm:text-5xl md:text-7xl font-bold tracking-normal">
+          work
+        </div>
+        </a>
+        <a href="https://jasonkunesh.com/">
+        <div class="kd-card uppercase font-bsti text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-wide">
+        play
+        </div>
+        </a>
+      </div>
+      <div class="text-left">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl uppercase font-bsti text-kd-deep-purple">Currently</h2>
+      <ul>
+      <li>working on a book</li>
+      <li>designing micro-services at <a href="https://kunesh.design/">kunesh.design</a></li>
+      <li>upcoming gig 4/7 in Berwyn with Mrs. Smith &amp; the Present</li>
+      </ul>
+      </div>
+    <footer class="text-center">
+      <p class="text-kd-gray-dark font-mono">&copy; 2023</p>
     </footer>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@800&text=PLAY&display=swap" rel="stylesheet" media="screen,print" />
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@800&text=PLAYCURENT&display=swap" rel="stylesheet" media="screen,print" />
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&text=WORK&display=swap" rel="stylesheet" media="screen,print" />
     <script src="/assets/main.js"></script>
       <!-- Google tag (gtag.js) -->
