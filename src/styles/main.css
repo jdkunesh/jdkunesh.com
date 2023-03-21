@@ -7,7 +7,9 @@
     .kd-card { @apply max-w-sm bg-transparent text-kd-deep-purple hover:text-kd-orange hover:bg-kd-purple hover:shadow-md p-4 md:p-6 lg:p-8 my-4 md:my-8 lg:my-12 items-center justify-center rounded-md}
 
     ul { @apply pt-4 }
-    ul li { list-style: url("../img/CHISTAR-12.png") outside }
+    ul li { @apply text-left}
+    ul li { list-style: url("../img/CHISTAR-12.png") outside; }
+    ul li a {text-decoration: underline;}
     li { @apply pl-2 }
     html, body {height:100%;}
     body > footer {position: sticky; top:100vh;}
