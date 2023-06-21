@@ -26,7 +26,7 @@ module.exports = {
         "kd-stacy-orange": "#F0A628",
         "kd-tangerine": "#FFA96B",
         "kd-purple": "#572A59",
-        "kd-red": "#F5141F",
+        "kd-red": "#E60A15",
         "kd-yellow": "#FFD400"
       },
       fontFamily: {
