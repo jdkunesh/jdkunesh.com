@@ -11,6 +11,7 @@ module.exports = {
         "kd-indigo": "#515281",
         "kd-blonde": "#FAF0BE",
         "kd-blue": "#0070AD",
+        "kd-blue-25": "#BFDBEB",
         "kd-deep-purple": "#404660",
         "kd-gray-dark": "#34333E",
         "kd-gray-gray": "#484048",
